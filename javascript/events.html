@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      height:100px;
+      width:100px;
+      background-color: bisque;
+      color:rgb(158, 14, 115);
+      margin:10px;
+      border:solid black 2px;
+      padding:5px;
+    
+    }
+  </style>
+  <link rel="stylesheet" href="events.css">
+</head>
+<body>
+  <!-- inline events handling -->
+  
+  <button onclick="console.log('button is clicked');alert('hello!!');">click me!!</button>
+
+  <button ondblclick="console.log('buton was 2 times');alert('work work!!');">click me 2 times!!</button>
+
+  <div onmouseover="console.log('you are inside div');">AREY ENTRA IDI</div>
+
+  <button id="btn1">single click chalthe hai</button>
+
+  <button id="btn2">only double click se kaam</button>
+
+  <div id="keeda">MY DIE I DIE WHY FOR YOU</div>
+
+  <br>
+  <br>
+
+  <button id="ques">clicks</button>
+
+  <script src="events.js"></script>
+</body>
+</html>
